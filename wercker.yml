@@ -1,0 +1,7 @@
+build:
+  box: ubuntu
+  docker: true
+  steps: 
+    - internal/docker-build:
+      dockerfile: Dockerfile
+      image-name: my-new-image
